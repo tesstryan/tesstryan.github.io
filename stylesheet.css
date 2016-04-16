@@ -1,0 +1,43 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #001F4F;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 500px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  height: 470px;
+}
+
+p {
+  font-weight: 800;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+      font-size: 300px;
+      text-align: center;
+      height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 250px;
+      text-align: center;
+      height: 240px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+}
